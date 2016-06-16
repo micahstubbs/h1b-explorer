@@ -1,7 +1,7 @@
 {
-  "name": "react-d3-example",
+  "name": "h1b-explorer",
   "version": "0.1.0",
-  "description": "An example project to show off React and d3 working together",
+  "description": "an exploration of H1B skilled immigrant work permit data from the United States",
   "scripts": {
     "clean": "rimraf dist",
     "build:webpack": "cross-env NODE_ENV=production webpack --config webpack.config.prod.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gaearon/react-transform-boilerplate.git"
+    "url": "https://github.com/micahstubbs/h1b-explorer.git"
   },
   "keywords": [
     "react",
@@ -29,9 +29,9 @@
   "author": "@micahstubbs <micahstubbs@gmail.com> (http://github.com/micahstubbs)",
   "license": "CC0-1.0",
   "bugs": {
-    "url": "https://github.com/gaearon/react-transform-boilerplate/issues"
+    "url": "https://github.com/micahstubbs/h1b-explorer/issues"
   },
-  "homepage": "https://github.com/gaearon/react-transform-boilerplate",
+  "homepage": "https://github.com/micahstubbs/h1b-explorer",
   "devDependencies": {
     "babel-core": "^6.6.5",
     "babel-eslint": "^5.0.0-beta4",
